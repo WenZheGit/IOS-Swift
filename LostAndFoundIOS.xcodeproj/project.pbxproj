@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181FB7D71CE178BF00D73389 /* ViewPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181FB7D61CE178BF00D73389 /* ViewPropertyViewController.swift */; };
+		1829A5331CECC6F600311389 /* FoundDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1829A5321CECC6F600311389 /* FoundDetailsViewController.swift */; };
+		186F55D61CDF227700DC93D5 /* AddPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186F55D51CDF227700DC93D5 /* AddPropertyViewController.swift */; };
+		1877C8301D01575500D188B8 /* pin-map-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877C82F1D01575500D188B8 /* pin-map-7.png */; };
+		1877C8321D01576000D188B8 /* Calendar-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877C8311D01576000D188B8 /* Calendar-50.png */; };
+		1877C8341D01576B00D188B8 /* emoticon-sad-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877C8331D01576B00D188B8 /* emoticon-sad-7.png */; };
+		1877C8361D01577400D188B8 /* emoticon-smile-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877C8351D01577400D188B8 /* emoticon-smile-7.png */; };
+		1877C8381D0157AE00D188B8 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877C8371D0157AE00D188B8 /* circle-user-7.png */; };
+		1877C83A1D0157C200D188B8 /* home-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877C8391D0157C200D188B8 /* home-7.png */; };
+		1877C83C1D0157C700D188B8 /* search-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1877C83B1D0157C700D188B8 /* search-7.png */; };
+		1877C83E1D0157CE00D188B8 /* lost-found-banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1877C83D1D0157CE00D188B8 /* lost-found-banner.jpg */; };
+		1877C8421D016C7E00D188B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1877C8411D016C7E00D188B8 /* Main.storyboard */; };
+		18878E601CE35B93003BEB38 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18878E5F1CE35B93003BEB38 /* BaseService.swift */; };
+		188D8C251D0335CF00BB3376 /* New Post Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 188D8C241D0335CF00BB3376 /* New Post Filled-50.png */; };
+		188D8C271D03367C00BB3376 /* New Post-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 188D8C261D03367C00BB3376 /* New Post-50.png */; };
+		188D8C291D0339B600BB3376 /* Lock-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 188D8C281D0339B600BB3376 /* Lock-50.png */; };
+		189C186B1CDF86A4003CED1A /* PropertyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C186A1CDF86A4003CED1A /* PropertyTableViewCell.swift */; };
 		18A16B201CDAC17600CCFCC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A16B1F1CDAC17600CCFCC6 /* AppDelegate.swift */; };
-		18A16B221CDAC17600CCFCC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A16B211CDAC17600CCFCC6 /* ViewController.swift */; };
-		18A16B251CDAC17600CCFCC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A16B231CDAC17600CCFCC6 /* Main.storyboard */; };
 		18A16B281CDAC17600CCFCC6 /* LostAndFoundIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A16B261CDAC17600CCFCC6 /* LostAndFoundIOS.xcdatamodeld */; };
 		18A16B2A1CDAC17600CCFCC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A16B291CDAC17600CCFCC6 /* Assets.xcassets */; };
 		18A16B2D1CDAC17600CCFCC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A16B2B1CDAC17600CCFCC6 /* LaunchScreen.storyboard */; };
 		18A16B381CDAC17600CCFCC6 /* LostAndFoundIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A16B371CDAC17600CCFCC6 /* LostAndFoundIOSTests.swift */; };
 		18A16B431CDAC17600CCFCC6 /* LostAndFoundIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A16B421CDAC17600CCFCC6 /* LostAndFoundIOSUITests.swift */; };
+		18A16B541CDAC9F700CCFCC6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A16B531CDAC9F700CCFCC6 /* RegisterViewController.swift */; };
+		18A16B5A1CDACC2200CCFCC6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A16B591CDACC2200CCFCC6 /* LoginViewController.swift */; };
+		18A16B5C1CDAD24300CCFCC6 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A16B5B1CDAD24300CCFCC6 /* UserProfileViewController.swift */; };
+		18A16B5E1CDAF0A000CCFCC6 /* LostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A16B5D1CDAF0A000CCFCC6 /* LostTableViewController.swift */; };
+		18A4DC9A1CFF1AC8002DF594 /* 76791_918270622_l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18A4DC991CFF1AC8002DF594 /* 76791_918270622_l.jpg */; };
+		18A4DC9C1CFF1B6F002DF594 /* tumblr_my4eicbwi41r44ud4o1_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18A4DC9B1CFF1B6F002DF594 /* tumblr_my4eicbwi41r44ud4o1_1280.jpg */; };
+		18A4DCA41CFF1BC3002DF594 /* tumblr_mahux4o4wy1qdhfhho1_r2_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18A4DCA31CFF1BC3002DF594 /* tumblr_mahux4o4wy1qdhfhho1_r2_1280.jpg */; };
+		18A6E7241CF4727A002BF354 /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6E7231CF4727A002BF354 /* ValidatorTests.swift */; };
+		18A6E7261CF47498002BF354 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6E7251CF47498002BF354 /* Validator.swift */; };
+		18ACE2311CDB9368005DCD32 /* UpdateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ACE2301CDB9368005DCD32 /* UpdateUserViewController.swift */; };
+		18B1B8611D071FB3001B1907 /* tumblr_n021hjOZ8F1r6322ho1_500 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18B1B8601D071FB3001B1907 /* tumblr_n021hjOZ8F1r6322ho1_500 (1).jpg */; };
+		18B1B8631D072039001B1907 /* s.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18B1B8621D072039001B1907 /* s.jpeg */; };
+		18BD14081CEAA2D10072139B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD14071CEAA2D10072139B /* SearchTableViewController.swift */; };
+		18BD140A1CEAA8AE0072139B /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD14091CEAA8AE0072139B /* SearchTableViewCell.swift */; };
+		18BD14121CEACFA00072139B /* SearchDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD14111CEACFA00072139B /* SearchDetailsViewController.swift */; };
+		18C19B291CEC8D18007302FD /* FoundTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C19B281CEC8D18007302FD /* FoundTableViewController.swift */; };
+		18C19B2B1CEC8E43007302FD /* FoundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C19B2A1CEC8E43007302FD /* FoundTableViewCell.swift */; };
+		18DE67B81CDDF0980084B2CA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE67B71CDDF0980084B2CA /* MapViewController.swift */; };
+		18DE67BA1CDE05490084B2CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE67B91CDE05490084B2CA /* CoreLocation.framework */; };
+		18FC5E221CE3B3D2000EFFA4 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5E211CE3B3D2000EFFA4 /* Property.swift */; };
+		57B32FD627555780269BEF20 /* Pods_LostAndFoundIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4960B17EADF76C4C9DCE668 /* Pods_LostAndFoundIOSUITests.framework */; };
+		8C14C691F2AA6D6A86ED8DBD /* Pods_LostAndFoundIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BC5BFB9F6C78DDE87B1CB8 /* Pods_LostAndFoundIOS.framework */; };
+		F6EA37A0CAD00731E8475D91 /* Pods_LostAndFoundIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B329BEEC79AC1ABAAF47403E /* Pods_LostAndFoundIOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +73,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E791328395EE2478743B21C /* Pods-LostAndFoundIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostAndFoundIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-LostAndFoundIOS/Pods-LostAndFoundIOS.release.xcconfig"; sourceTree = "<group>"; };
+		181FB7D61CE178BF00D73389 /* ViewPropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPropertyViewController.swift; sourceTree = "<group>"; };
+		1829A5321CECC6F600311389 /* FoundDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundDetailsViewController.swift; sourceTree = "<group>"; };
+		186F55D51CDF227700DC93D5 /* AddPropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPropertyViewController.swift; sourceTree = "<group>"; };
+		1877C82F1D01575500D188B8 /* pin-map-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin-map-7.png"; sourceTree = "<group>"; };
+		1877C8311D01576000D188B8 /* Calendar-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar-50.png"; sourceTree = "<group>"; };
+		1877C8331D01576B00D188B8 /* emoticon-sad-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoticon-sad-7.png"; sourceTree = "<group>"; };
+		1877C8351D01577400D188B8 /* emoticon-smile-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emoticon-smile-7.png"; sourceTree = "<group>"; };
+		1877C8371D0157AE00D188B8 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-user-7.png"; sourceTree = "<group>"; };
+		1877C8391D0157C200D188B8 /* home-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-7.png"; sourceTree = "<group>"; };
+		1877C83B1D0157C700D188B8 /* search-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-7.png"; sourceTree = "<group>"; };
+		1877C83D1D0157CE00D188B8 /* lost-found-banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lost-found-banner.jpg"; sourceTree = "<group>"; };
+		1877C8411D016C7E00D188B8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18878E5F1CE35B93003BEB38 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		188D8C241D0335CF00BB3376 /* New Post Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New Post Filled-50.png"; sourceTree = "<group>"; };
+		188D8C261D03367C00BB3376 /* New Post-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New Post-50.png"; sourceTree = "<group>"; };
+		188D8C281D0339B600BB3376 /* Lock-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lock-50.png"; sourceTree = "<group>"; };
+		189C186A1CDF86A4003CED1A /* PropertyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyTableViewCell.swift; sourceTree = "<group>"; };
 		18A16B1C1CDAC17600CCFCC6 /* LostAndFoundIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LostAndFoundIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A16B1F1CDAC17600CCFCC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18A16B211CDAC17600CCFCC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		18A16B241CDAC17600CCFCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18A16B271CDAC17600CCFCC6 /* LostAndFoundIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LostAndFoundIOS.xcdatamodel; sourceTree = "<group>"; };
 		18A16B291CDAC17600CCFCC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A16B2C1CDAC17600CCFCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +103,34 @@
 		18A16B3E1CDAC17600CCFCC6 /* LostAndFoundIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LostAndFoundIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A16B421CDAC17600CCFCC6 /* LostAndFoundIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostAndFoundIOSUITests.swift; sourceTree = "<group>"; };
 		18A16B441CDAC17600CCFCC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A16B531CDAC9F700CCFCC6 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		18A16B591CDACC2200CCFCC6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		18A16B5B1CDAD24300CCFCC6 /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		18A16B5D1CDAF0A000CCFCC6 /* LostTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LostTableViewController.swift; sourceTree = "<group>"; };
+		18A4DC991CFF1AC8002DF594 /* 76791_918270622_l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 76791_918270622_l.jpg; sourceTree = "<group>"; };
+		18A4DC9B1CFF1B6F002DF594 /* tumblr_my4eicbwi41r44ud4o1_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tumblr_my4eicbwi41r44ud4o1_1280.jpg; sourceTree = "<group>"; };
+		18A4DCA31CFF1BC3002DF594 /* tumblr_mahux4o4wy1qdhfhho1_r2_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tumblr_mahux4o4wy1qdhfhho1_r2_1280.jpg; sourceTree = "<group>"; };
+		18A6E7231CF4727A002BF354 /* ValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
+		18A6E7251CF47498002BF354 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		18ACE2301CDB9368005DCD32 /* UpdateUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateUserViewController.swift; sourceTree = "<group>"; };
+		18B1B8601D071FB3001B1907 /* tumblr_n021hjOZ8F1r6322ho1_500 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tumblr_n021hjOZ8F1r6322ho1_500 (1).jpg"; sourceTree = "<group>"; };
+		18B1B8621D072039001B1907 /* s.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s.jpeg; sourceTree = "<group>"; };
+		18BD14071CEAA2D10072139B /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		18BD14091CEAA8AE0072139B /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		18BD14111CEACFA00072139B /* SearchDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsViewController.swift; sourceTree = "<group>"; };
+		18C19B281CEC8D18007302FD /* FoundTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundTableViewController.swift; sourceTree = "<group>"; };
+		18C19B2A1CEC8E43007302FD /* FoundTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundTableViewCell.swift; sourceTree = "<group>"; };
+		18DE67B71CDDF0980084B2CA /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		18DE67B91CDE05490084B2CA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18FC5E211CE3B3D2000EFFA4 /* Property.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		27DFCF245FD18BBE31F58F7A /* Pods-LostAndFoundIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostAndFoundIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LostAndFoundIOSTests/Pods-LostAndFoundIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28CAB2D43715207F4E7F538A /* Pods-LostAndFoundIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostAndFoundIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LostAndFoundIOSUITests/Pods-LostAndFoundIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78861204DC775EFBC6F4FEBC /* Pods-LostAndFoundIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostAndFoundIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LostAndFoundIOSTests/Pods-LostAndFoundIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4BC5BFB9F6C78DDE87B1CB8 /* Pods_LostAndFoundIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostAndFoundIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5788CAAEAA2D7C0FDC72B35 /* Pods-LostAndFoundIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostAndFoundIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LostAndFoundIOS/Pods-LostAndFoundIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B329BEEC79AC1ABAAF47403E /* Pods_LostAndFoundIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostAndFoundIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4960B17EADF76C4C9DCE668 /* Pods_LostAndFoundIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LostAndFoundIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE7F69367A32AFF77A051D6 /* Pods-LostAndFoundIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LostAndFoundIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LostAndFoundIOSUITests/Pods-LostAndFoundIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +138,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DE67BA1CDE05490084B2CA /* CoreLocation.framework in Frameworks */,
+				8C14C691F2AA6D6A86ED8DBD /* Pods_LostAndFoundIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6EA37A0CAD00731E8475D91 /* Pods_LostAndFoundIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B32FD627555780269BEF20 /* Pods_LostAndFoundIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +165,13 @@
 		18A16B131CDAC17600CCFCC6 = {
 			isa = PBXGroup;
 			children = (
+				18DE67B91CDE05490084B2CA /* CoreLocation.framework */,
 				18A16B1E1CDAC17600CCFCC6 /* LostAndFoundIOS */,
 				18A16B361CDAC17600CCFCC6 /* LostAndFoundIOSTests */,
 				18A16B411CDAC17600CCFCC6 /* LostAndFoundIOSUITests */,
 				18A16B1D1CDAC17600CCFCC6 /* Products */,
+				9B786341A746FDA0D11D78CF /* Pods */,
+				6B0310B90295EF33691F762E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +188,31 @@
 		18A16B1E1CDAC17600CCFCC6 /* LostAndFoundIOS */ = {
 			isa = PBXGroup;
 			children = (
+				1877C8411D016C7E00D188B8 /* Main.storyboard */,
+				18BD14111CEACFA00072139B /* SearchDetailsViewController.swift */,
+				18BD14071CEAA2D10072139B /* SearchTableViewController.swift */,
+				18A16B501CDAC21100CCFCC6 /* images */,
 				18A16B1F1CDAC17600CCFCC6 /* AppDelegate.swift */,
-				18A16B211CDAC17600CCFCC6 /* ViewController.swift */,
-				18A16B231CDAC17600CCFCC6 /* Main.storyboard */,
+				189C186A1CDF86A4003CED1A /* PropertyTableViewCell.swift */,
+				18BD14091CEAA8AE0072139B /* SearchTableViewCell.swift */,
+				186F55D51CDF227700DC93D5 /* AddPropertyViewController.swift */,
+				18C19B281CEC8D18007302FD /* FoundTableViewController.swift */,
+				18C19B2A1CEC8E43007302FD /* FoundTableViewCell.swift */,
+				18DE67B71CDDF0980084B2CA /* MapViewController.swift */,
+				18ACE2301CDB9368005DCD32 /* UpdateUserViewController.swift */,
+				18A16B531CDAC9F700CCFCC6 /* RegisterViewController.swift */,
+				18A16B591CDACC2200CCFCC6 /* LoginViewController.swift */,
+				18A16B5D1CDAF0A000CCFCC6 /* LostTableViewController.swift */,
+				181FB7D61CE178BF00D73389 /* ViewPropertyViewController.swift */,
+				1829A5321CECC6F600311389 /* FoundDetailsViewController.swift */,
+				18A16B5B1CDAD24300CCFCC6 /* UserProfileViewController.swift */,
 				18A16B291CDAC17600CCFCC6 /* Assets.xcassets */,
 				18A16B2B1CDAC17600CCFCC6 /* LaunchScreen.storyboard */,
 				18A16B2E1CDAC17600CCFCC6 /* Info.plist */,
 				18A16B261CDAC17600CCFCC6 /* LostAndFoundIOS.xcdatamodeld */,
+				18878E5F1CE35B93003BEB38 /* BaseService.swift */,
+				18FC5E211CE3B3D2000EFFA4 /* Property.swift */,
+				18A6E7251CF47498002BF354 /* Validator.swift */,
 			);
 			path = LostAndFoundIOS;
 			sourceTree = "<group>";
@@ -115,6 +222,7 @@
 			children = (
 				18A16B371CDAC17600CCFCC6 /* LostAndFoundIOSTests.swift */,
 				18A16B391CDAC17600CCFCC6 /* Info.plist */,
+				18A6E7231CF4727A002BF354 /* ValidatorTests.swift */,
 			);
 			path = LostAndFoundIOSTests;
 			sourceTree = "<group>";
@@ -128,6 +236,52 @@
 			path = LostAndFoundIOSUITests;
 			sourceTree = "<group>";
 		};
+		18A16B501CDAC21100CCFCC6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18A4DC991CFF1AC8002DF594 /* 76791_918270622_l.jpg */,
+				1877C8351D01577400D188B8 /* emoticon-smile-7.png */,
+				1877C83B1D0157C700D188B8 /* search-7.png */,
+				1877C83D1D0157CE00D188B8 /* lost-found-banner.jpg */,
+				18B1B8601D071FB3001B1907 /* tumblr_n021hjOZ8F1r6322ho1_500 (1).jpg */,
+				18B1B8621D072039001B1907 /* s.jpeg */,
+				188D8C241D0335CF00BB3376 /* New Post Filled-50.png */,
+				1877C8391D0157C200D188B8 /* home-7.png */,
+				1877C8371D0157AE00D188B8 /* circle-user-7.png */,
+				188D8C281D0339B600BB3376 /* Lock-50.png */,
+				1877C8311D01576000D188B8 /* Calendar-50.png */,
+				1877C8331D01576B00D188B8 /* emoticon-sad-7.png */,
+				1877C82F1D01575500D188B8 /* pin-map-7.png */,
+				188D8C261D03367C00BB3376 /* New Post-50.png */,
+				18A4DC9B1CFF1B6F002DF594 /* tumblr_my4eicbwi41r44ud4o1_1280.jpg */,
+				18A4DCA31CFF1BC3002DF594 /* tumblr_mahux4o4wy1qdhfhho1_r2_1280.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		6B0310B90295EF33691F762E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4BC5BFB9F6C78DDE87B1CB8 /* Pods_LostAndFoundIOS.framework */,
+				B329BEEC79AC1ABAAF47403E /* Pods_LostAndFoundIOSTests.framework */,
+				C4960B17EADF76C4C9DCE668 /* Pods_LostAndFoundIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B786341A746FDA0D11D78CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5788CAAEAA2D7C0FDC72B35 /* Pods-LostAndFoundIOS.debug.xcconfig */,
+				0E791328395EE2478743B21C /* Pods-LostAndFoundIOS.release.xcconfig */,
+				27DFCF245FD18BBE31F58F7A /* Pods-LostAndFoundIOSTests.debug.xcconfig */,
+				78861204DC775EFBC6F4FEBC /* Pods-LostAndFoundIOSTests.release.xcconfig */,
+				28CAB2D43715207F4E7F538A /* Pods-LostAndFoundIOSUITests.debug.xcconfig */,
+				DCE7F69367A32AFF77A051D6 /* Pods-LostAndFoundIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A16B471CDAC17600CCFCC6 /* Build configuration list for PBXNativeTarget "LostAndFoundIOS" */;
 			buildPhases = (
+				493F5D21950030FD3CDDBB7C /* 📦 Check Pods Manifest.lock */,
 				18A16B181CDAC17600CCFCC6 /* Sources */,
 				18A16B191CDAC17600CCFCC6 /* Frameworks */,
 				18A16B1A1CDAC17600CCFCC6 /* Resources */,
+				8BF2D65E92B8739DBC6C11A2 /* 📦 Embed Pods Frameworks */,
+				41AD4CC4781332498508022B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +309,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A16B4A1CDAC17600CCFCC6 /* Build configuration list for PBXNativeTarget "LostAndFoundIOSTests" */;
 			buildPhases = (
+				585B15EC10CE1853BFB3B76F /* 📦 Check Pods Manifest.lock */,
 				18A16B2F1CDAC17600CCFCC6 /* Sources */,
 				18A16B301CDAC17600CCFCC6 /* Frameworks */,
 				18A16B311CDAC17600CCFCC6 /* Resources */,
+				75EE8695B2405A6D34D075D3 /* 📦 Embed Pods Frameworks */,
+				32D84A2157BDDDEB3EAB9F6B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +330,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A16B4D1CDAC17600CCFCC6 /* Build configuration list for PBXNativeTarget "LostAndFoundIOSUITests" */;
 			buildPhases = (
+				CC5F2BD8FA9407710B98E380 /* 📦 Check Pods Manifest.lock */,
 				18A16B3A1CDAC17600CCFCC6 /* Sources */,
 				18A16B3B1CDAC17600CCFCC6 /* Frameworks */,
 				18A16B3C1CDAC17600CCFCC6 /* Resources */,
+				C3E085F0760A423EFA5074F6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +397,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1877C8381D0157AE00D188B8 /* circle-user-7.png in Resources */,
+				188D8C251D0335CF00BB3376 /* New Post Filled-50.png in Resources */,
+				1877C8321D01576000D188B8 /* Calendar-50.png in Resources */,
+				1877C83A1D0157C200D188B8 /* home-7.png in Resources */,
 				18A16B2D1CDAC17600CCFCC6 /* LaunchScreen.storyboard in Resources */,
+				188D8C291D0339B600BB3376 /* Lock-50.png in Resources */,
+				1877C8301D01575500D188B8 /* pin-map-7.png in Resources */,
+				1877C8341D01576B00D188B8 /* emoticon-sad-7.png in Resources */,
+				18A4DCA41CFF1BC3002DF594 /* tumblr_mahux4o4wy1qdhfhho1_r2_1280.jpg in Resources */,
+				18B1B8631D072039001B1907 /* s.jpeg in Resources */,
+				1877C83E1D0157CE00D188B8 /* lost-found-banner.jpg in Resources */,
+				188D8C271D03367C00BB3376 /* New Post-50.png in Resources */,
 				18A16B2A1CDAC17600CCFCC6 /* Assets.xcassets in Resources */,
-				18A16B251CDAC17600CCFCC6 /* Main.storyboard in Resources */,
+				1877C83C1D0157C700D188B8 /* search-7.png in Resources */,
+				1877C8421D016C7E00D188B8 /* Main.storyboard in Resources */,
+				18A4DC9A1CFF1AC8002DF594 /* 76791_918270622_l.jpg in Resources */,
+				18A4DC9C1CFF1B6F002DF594 /* tumblr_my4eicbwi41r44ud4o1_1280.jpg in Resources */,
+				1877C8361D01577400D188B8 /* emoticon-smile-7.png in Resources */,
+				18B1B8611D071FB3001B1907 /* tumblr_n021hjOZ8F1r6322ho1_500 (1).jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +435,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32D84A2157BDDDEB3EAB9F6B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostAndFoundIOSTests/Pods-LostAndFoundIOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41AD4CC4781332498508022B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostAndFoundIOS/Pods-LostAndFoundIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		493F5D21950030FD3CDDBB7C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		585B15EC10CE1853BFB3B76F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75EE8695B2405A6D34D075D3 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostAndFoundIOSTests/Pods-LostAndFoundIOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BF2D65E92B8739DBC6C11A2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostAndFoundIOS/Pods-LostAndFoundIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E085F0760A423EFA5074F6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LostAndFoundIOSUITests/Pods-LostAndFoundIOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5F2BD8FA9407710B98E380 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18A16B181CDAC17600CCFCC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181FB7D71CE178BF00D73389 /* ViewPropertyViewController.swift in Sources */,
+				189C186B1CDF86A4003CED1A /* PropertyTableViewCell.swift in Sources */,
+				1829A5331CECC6F600311389 /* FoundDetailsViewController.swift in Sources */,
+				18DE67B81CDDF0980084B2CA /* MapViewController.swift in Sources */,
+				18BD14081CEAA2D10072139B /* SearchTableViewController.swift in Sources */,
+				18A16B5A1CDACC2200CCFCC6 /* LoginViewController.swift in Sources */,
+				18BD14121CEACFA00072139B /* SearchDetailsViewController.swift in Sources */,
+				18C19B2B1CEC8E43007302FD /* FoundTableViewCell.swift in Sources */,
+				18C19B291CEC8D18007302FD /* FoundTableViewController.swift in Sources */,
+				18A16B5C1CDAD24300CCFCC6 /* UserProfileViewController.swift in Sources */,
 				18A16B281CDAC17600CCFCC6 /* LostAndFoundIOS.xcdatamodeld in Sources */,
-				18A16B221CDAC17600CCFCC6 /* ViewController.swift in Sources */,
+				186F55D61CDF227700DC93D5 /* AddPropertyViewController.swift in Sources */,
+				18A6E7261CF47498002BF354 /* Validator.swift in Sources */,
+				18FC5E221CE3B3D2000EFFA4 /* Property.swift in Sources */,
+				18BD140A1CEAA8AE0072139B /* SearchTableViewCell.swift in Sources */,
+				18A16B5E1CDAF0A000CCFCC6 /* LostTableViewController.swift in Sources */,
+				18878E601CE35B93003BEB38 /* BaseService.swift in Sources */,
+				18ACE2311CDB9368005DCD32 /* UpdateUserViewController.swift in Sources */,
 				18A16B201CDAC17600CCFCC6 /* AppDelegate.swift in Sources */,
+				18A16B541CDAC9F700CCFCC6 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A6E7241CF4727A002BF354 /* ValidatorTests.swift in Sources */,
 				18A16B381CDAC17600CCFCC6 /* LostAndFoundIOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +619,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		18A16B231CDAC17600CCFCC6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18A16B241CDAC17600CCFCC6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18A16B2B1CDAC17600CCFCC6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -402,6 +713,7 @@
 		};
 		18A16B481CDAC17600CCFCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5788CAAEAA2D7C0FDC72B35 /* Pods-LostAndFoundIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LostAndFoundIOS/Info.plist;
@@ -413,6 +725,7 @@
 		};
 		18A16B491CDAC17600CCFCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E791328395EE2478743B21C /* Pods-LostAndFoundIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LostAndFoundIOS/Info.plist;
@@ -424,6 +737,7 @@
 		};
 		18A16B4B1CDAC17600CCFCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27DFCF245FD18BBE31F58F7A /* Pods-LostAndFoundIOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LostAndFoundIOSTests/Info.plist;
@@ -436,6 +750,7 @@
 		};
 		18A16B4C1CDAC17600CCFCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78861204DC775EFBC6F4FEBC /* Pods-LostAndFoundIOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = LostAndFoundIOSTests/Info.plist;
@@ -448,6 +763,7 @@
 		};
 		18A16B4E1CDAC17600CCFCC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28CAB2D43715207F4E7F538A /* Pods-LostAndFoundIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LostAndFoundIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +776,7 @@
 		};
 		18A16B4F1CDAC17600CCFCC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE7F69367A32AFF77A051D6 /* Pods-LostAndFoundIOSUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = LostAndFoundIOSUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -489,6 +806,7 @@
 				18A16B491CDAC17600CCFCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A16B4A1CDAC17600CCFCC6 /* Build configuration list for PBXNativeTarget "LostAndFoundIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +815,7 @@
 				18A16B4C1CDAC17600CCFCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A16B4D1CDAC17600CCFCC6 /* Build configuration list for PBXNativeTarget "LostAndFoundIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +824,7 @@
 				18A16B4F1CDAC17600CCFCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

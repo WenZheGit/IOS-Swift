@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Firebase.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-LostAndFoundIOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-LostAndFoundIOSTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-LostAndFoundIOSUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>45CDB02A9E8B7BDB3B00ADDED9D6AFEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>998B5EA38DD8790F3E8C08CC5F7BBE3B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7AC9326D819482593FE118E915409D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F2C8CF43A92C569702D2AE7E5F2047BF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

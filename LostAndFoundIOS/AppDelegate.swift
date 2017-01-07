@@ -14,12 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        //let navController = self.window?.rootViewController as! UINavigationController
+        //let lostTableViewController = navController.viewControllers[0] as! LostTableViewController
+        //lostTableViewController.managedObjectContext = self.managedObjectContext
         return true
     }
-
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
@@ -57,7 +59,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let modelURL = NSBundle.mainBundle().URLForResource("LostAndFoundIOS", withExtension: "momd")!
         return NSManagedObjectModel(contentsOfURL: modelURL)!
     }()
-
+    
     lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator = {
         // The persistent store coordinator for the application. This implementation creates and returns a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.
         // Create the coordinator and store
@@ -71,7 +73,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             var dict = [String: AnyObject]()
             dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data"
             dict[NSLocalizedFailureReasonErrorKey] = failureReason
-
+            
             dict[NSUnderlyingErrorKey] = error as NSError
             let wrappedError = NSError(domain: "YOUR_ERROR_DOMAIN", code: 9999, userInfo: dict)
             // Replace this with code to handle the error appropriately.
@@ -79,7 +81,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSLog("Unresolved error \(wrappedError), \(wrappedError.userInfo)")
             abort()
         }
-        
         return coordinator
     }()
 
